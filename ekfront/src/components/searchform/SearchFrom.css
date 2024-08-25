@@ -1,0 +1,79 @@
+/* Optional CSS for additional styling */
+.search-form-container {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8f9fa; /* Light background color */
+    border-radius: 10px;
+}
+
+.search-form-container .form-control {
+    border-radius: 5px;
+}
+
+.search-section {
+    background-image: url('/home/kadirshaheb/Desktop/React_Project/ekfront/public/tractor.jpg'); /* Replace with the actual path to your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    width: 100%;
+}
+
+h1, p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: rgb(0, 247, 0);
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.input-with-icon {
+    position: relative;
+}
+
+.input-with-icon .icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #15ec02;
+}
+
+.input-with-icon input {
+    padding-left: 35px;
+}
+
+.tool-type-dropdown {
+    background-color: #15ec02;
+    border: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.tool-type-dropdown::after {
+    content: '';
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+}

@@ -1,0 +1,84 @@
+body {
+  background-color: #b7da57;
+}
+
+
+.body-h2 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  color: whitesmoke;
+  font-size: 3.5rem;
+  background-color: #f5690b;
+  border-radius: 5rem;
+  padding: .5rem 2rem;
+  border: 2px solid rgba(68, 63, 141, 0.575);
+}
+
+.all-section {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.body-p {
+  color: black;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.habibi {
+  border: 2px solid black;
+  margin-bottom: 5rem;
+  margin-top: 1rem;
+}
+
+.tool-card {
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #18570498;
+}
+
+.tool-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.tool-card img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 300px;
+}
+
+.tool-card-title {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-top: 15px;
+  text-align: center;
+  shape-outside: margin-box;
+  font-weight: bold;
+}
+
+.login {
+  text-align: center;
+  margin-top: 20vh;
+  padding: 1rem 2rem;
+  gap: 1rem;
+}
+
+.addtool {
+  margin-top: 10rem;
+}
+
+@media (max-width: 900px) {
+  .tool-card {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: small;
+  }
+  .body-h2 {
+    font-size: large;
+  }
+  .body-p {
+    font-size: small;
+  }
+}
+
